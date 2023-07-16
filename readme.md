@@ -1,6 +1,6 @@
 # AiZhiQian随机图API食用说明
 
-不来这里抽个卡嘛~( •̀ ω •́ )y → [Gacha](https://api.img11.eu.org/gacha)
+不来这里抽个卡嘛~( •̀ ω •́ )y → [Gacha](https://api-github.img11.eu.org/gacha)
 
 本随机图API基于 [islandworld](https://iw233.cn/) 分享的数据，B站美图UP主们分享的图片和咱搜集的壁纸制作，图片 **绿色健康** 
 
@@ -8,7 +8,8 @@
 
 ### 食用方法
 
-API地址：https://api.img11.eu.org/random   
+API地址：https://api-github.img11.eu.org/random   
+API地址：https://api-npm.img11.eu.org/random   
 调用方法：GET
 
 #### 速率和每日额度限制说明：
@@ -20,7 +21,7 @@ API限制：每IP每5秒内可以调用3次API，超出返回429
 **此外，请注意，每个IP每24小时内仅可通过API获取10000张图片
 达到限度后将无法使用API，API地址返回状态码403并给出恢复时间**
 
-您可以 [访问这里](https://api.img11.eu.org/random?only_check=true) 以在不消耗额度的情况下查询您IP的剩余可用额度或可用额度恢复倒计时
+您可以 [访问这里](https://api-github.img11.eu.org/random?only_check=true) 以在不消耗额度的情况下查询您IP的剩余可用额度或可用额度恢复倒计时
 
 #### 传入参数说明：
 
@@ -38,12 +39,12 @@ Note：
 Demo：
 
 ```http
-GET https://api.img11.eu.org/random
-GET https://api.img11.eu.org/random?thumbnail=large
-GET https://api.img11.eu.org/random?sort=people
-GET https://api.img11.eu.org/random?sort=anime&type=text
-GET https://api.img11.eu.org/random?sort=nature&num=100
-GET https://api.img11.eu.org/random?only_check=true
+GET https://api-github.img11.eu.org/random
+GET https://api-github.img11.eu.org/random?thumbnail=large
+GET https://api-github.img11.eu.org/random?sort=people
+GET https://api-github.img11.eu.org/random?sort=anime&type=text
+GET https://api-github.img11.eu.org/random?sort=nature&num=100
+GET https://api-github.img11.eu.org/random?only_check=true
 ```
 
 #### 返回参数说明：
@@ -62,7 +63,7 @@ Demo(CSS)：
 
 ```css
 html:before {
-    background: url(https://api.img11.eu.org/random) no-repeat center 0/cover;
+    background: url(https://api-github.img11.eu.org/random) no-repeat center 0/cover;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -80,7 +81,7 @@ Demo(HTML)：
 ```html
 <style>
 .withBg:before {
-    background: url(https://api.img11.eu.org/random) no-repeat center 0/cover;
+    background: url(https://api-github.img11.eu.org/random) no-repeat center 0/cover;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -95,7 +96,7 @@ Demo(HTML)：
 
 #### 一个输出壁纸轮播HTML的API
 
-API地址：https://api.img11.eu.org/player   
+API地址：https://api-github.img11.eu.org/player   
 调用方法：GET
 
 传入参数说明：
@@ -109,7 +110,7 @@ API地址：https://api.img11.eu.org/player
 Demo(HTML)：
 
 ```html
-<iframe src="https://api.img11.eu.org/player?time=10" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;border:none;overflow:hidden;"></iframe>
+<iframe src="https://api-github.img11.eu.org/player?time=10" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;border:none;overflow:hidden;"></iframe>
 ```
 
 ### API调用统计
