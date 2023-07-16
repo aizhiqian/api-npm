@@ -10,6 +10,8 @@
 
 API地址：https://api-github.img11.eu.org/random   
 API地址：https://api-npm.img11.eu.org/random   
+API地址：https://api-bili.img11.eu.org/random   
+API地址：https://api-vika.img11.eu.org/random   
 调用方法：GET
 
 #### 速率和每日额度限制说明：
