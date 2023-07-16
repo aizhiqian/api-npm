@@ -1,0 +1,36 @@
+{
+    "rewrites": [
+        {
+            "source": "/gacha",
+            "destination": "/gacha.html"
+        },
+        {
+            "source": "/random",
+            "destination": "/api/random.py"
+        },
+        {
+            "source": "/network",
+            "destination": "/api/network.py"
+        },
+        {
+            "source": "/player",
+            "destination": "/api/player.py"
+        },
+        {
+            "source": "/favicon.ico",
+            "destination": "/style/favicon.ico"
+        },
+        {
+            "source": "/style/(.*)",
+            "destination": "/style/(.*)"
+        },
+        {
+            "source": "/_vercel/(.*)",
+            "destination": "/_vercel/(.*)"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/api/redirect.py"
+        }
+    ]
+}
